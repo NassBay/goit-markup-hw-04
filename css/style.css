@@ -441,3 +441,8 @@ img {
   letter-spacing: 0.32px;
   margin-bottom: 16px;
 }
+
+.footer .social-media-link:hover,
+.footer.social-media-link:focus {
+  background-color:  #31D0AA;
+}
