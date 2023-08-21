@@ -89,12 +89,11 @@ img {
   position: relative;
   display: block;
 }
-
 .active-color {
-  color: #404bbf;
+color: #404bbf;
 }
 
-.navigation-item:hover::after {
+.active-color::after {
   position: absolute;
   content: "";
   bottom: -1px;
@@ -104,6 +103,7 @@ img {
   background-color: #404bbf;
   border-radius: 2px;
 }
+
 
 .navigation-item:hover,
 .navigation-item:focus {
